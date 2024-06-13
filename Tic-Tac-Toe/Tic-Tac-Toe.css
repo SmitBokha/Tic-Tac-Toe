@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(to right, rgb(143, 142, 142), rgb(233, 223, 223));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+
+    background-color: #494949;
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    border: none;
+    margin: 10px;
+    background-color: rgb(175, 175, 175);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.result {
+    height: 150px;
+    width: 450px;
+    border-radius: 10px;
+    font-size: 40px;
+    display: none;
+    background-color: rgb(154, 152, 149);
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    animation: name 2s;
+}
+
+.reset {
+    height: 70px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(232, 216, 196);
+    color: rgb(86, 28, 36);
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+
+}
