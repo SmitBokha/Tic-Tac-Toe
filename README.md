@@ -1,2 +1,5 @@
 # Tic-Tac-Toe
-Tic-Tac-Toe Game  ( X , O )
+Tic-Tac-Toe Game Task using : 
+- HTML  
+- CSS  
+- JavaScript 
